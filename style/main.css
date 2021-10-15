@@ -15,6 +15,10 @@ body {
     color: white;
 }
 
+.container {
+    margin-left: 30px;
+}
+
 
 /* ------------- nav-bar ------------- */
 header .container {
@@ -43,7 +47,7 @@ header nav a:hover {
 }
 
 /* --------- filme principal --------- */
-.filme-principal {
+main .filme-principal {
     font-size: 16px;
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)100%), url('/img/jujustu-kaisen-fundo.jpg');
     height: 400px;
@@ -55,18 +59,22 @@ header nav a:hover {
     align-items: flex-start;
 }
 
-.title {
+main .filme-principal .container {
+    width: 60%;
+}
+
+main .filme-principal .title {
     margin-top: 15%;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.description {
+main .filme-principal .description {
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
-.botao {
+main .filme-principal .botoes .botao {
     background-color: rgba(0, 0, 0, .5);
     border: none;
     color: white;
@@ -77,11 +85,18 @@ header nav a:hover {
     transition: .3s ease all;
 }
 
-.botao:hover {
+main .filme-principal .botoes .botao:hover {
     background-color: white;
     color: black;
 }
 
-i {
+main .filme-principal .botoes .botao i {
     padding-right: 10px;
+}
+
+/* --------- configs imagens --------- */
+.box-filmes {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
