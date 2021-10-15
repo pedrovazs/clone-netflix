@@ -26,11 +26,12 @@ header .container {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin: 5px 15px;
 }
 
 header .logo {
     color: var(--vermelho);
-    margin-left: 5px;
+    /* margin-left: 5px; */
     font-family: 'Arial Black', Times;
     font-size: 40px;
 
@@ -94,7 +95,11 @@ main .filme-principal .botoes .botao i {
     padding-right: 10px;
 }
 
-/* --------- configs imagens --------- */
+/* --------- configs carrosel --------- */
+.carrosel-filmes {
+    margin-top: 5px;
+}
+
 .box-filmes {
     height: 100%;
     width: 100%;
