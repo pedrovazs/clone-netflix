@@ -95,6 +95,10 @@ main .filme-principal .botoes .botao i {
     padding-right: 10px;
 }
 
+main .filme-principal .botoes .botao a {
+    text-decoration: none;
+}
+
 /* --------- configs carrosel --------- */
 .carrosel-filmes {
     margin-top: 5px;
